@@ -1,0 +1,65 @@
+.card {
+    width: 25em;
+    border-radius: 2em;
+    box-shadow: 5px 10px 50px gray;
+}
+
+.card-title {
+    text-align: center;
+    color: white;
+    font: 14px tahoma;
+    text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+}
+
+.card-body {
+    text-align: center;
+}
+
+.card-img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.card-text {
+    padding: 1em;
+}
+
+.smaller-image {
+    width: 350px;
+}
+
+#larry-card {
+    background-image: linear-gradient(to bottom right, black, seagreen)
+}
+
+#michael-card {
+    background-image: linear-gradient(to bottom right, black, maroon)
+}
+
+#isaiah-card {
+    background-image: linear-gradient(to bottom right, black, purple)
+}
+
+#kyrie-card {
+    background-image: linear-gradient(to bottom right, black, seagreen)
+}
+
+#stephen-card {
+    background-image: linear-gradient(to bottom right, black, blue)
+}
+
+#klay-card {
+    background-image: linear-gradient(to bottom right, black, blue)
+}
